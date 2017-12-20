@@ -1,0 +1,26 @@
+{
+    "name": "turbo-js",
+    "displayName": "Turbo JS",
+    "description": "turbo js for vscode",
+    "version": "0.0.1",
+    "publisher": "heflyaway",
+    "icon": "./javascript.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/heflyaway/turbo-js-for-vscode"
+    },
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
