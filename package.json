@@ -1,8 +1,8 @@
 {
     "name": "turbo-js",
-    "displayName": "turbo-js",
+    "displayName": "Turbo JS",
     "description": "turbo js for vscode",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "heflyaway",
     "icon": "javascript.png",
     "repository": {
