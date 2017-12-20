@@ -93,6 +93,15 @@
         ],
         "description": "arrow function with body"
     },
+    "iife": {
+        "prefix": "iife",
+        "body": [
+            "(function (${1:arguments}) {",
+            "\t${0}",
+            "})(${2})"
+        ],
+        "description": "iife"
+    },
     "forEach": {
         "prefix": "fe",
         "body": [
