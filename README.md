@@ -4,11 +4,6 @@ Turbo-js for vscode is forked from [atom-turbo-javascript](https://github.com/ex
 
 ### Declarations
 
-#### `l⇥` let statement
-```js
-let ${1:name}
-```
-
 #### `l=⇥` let assignment
 ```js
 let ${1:name} = ${2:value}
@@ -144,7 +139,7 @@ class ${1:name} extends ${2:base} {
 }
 ```
 
-#### `m⇥` method (ES6 syntax)
+#### `med⇥` method (ES6 syntax)
 ```js
 ${1:method}(${2:arguments}) {
   ${0}
@@ -263,11 +258,6 @@ require('${1:module}');
 #### `cre⇥` require a module
 ```js
 const ${1:name} = require('${2:module}');
-```
-
-#### `em⇥` export member
-```js
-exports.${1:name} = ${2:value};
 ```
 
 #### `me⇥` module.exports

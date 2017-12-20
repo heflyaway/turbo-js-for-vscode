@@ -1,9 +1,4 @@
 {
-    "let": {
-        "prefix": "l",
-        "body": "let ${1:name}",
-        "description": "let statement"
-    },
     "let=": {
         "prefix": "l=",
         "body": "let ${1:name} = ${2:value};",
@@ -162,7 +157,7 @@
         "description": "class extend"
     },
     "method": {
-        "prefix": "m",
+        "prefix": "med",
         "body": [
             "${1:method}(${2:arguments}) {",
                 "\t${0}",

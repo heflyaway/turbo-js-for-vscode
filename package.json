@@ -2,7 +2,7 @@
     "name": "turbo-js",
     "displayName": "turbo-js",
     "description": "turbo js for vscode",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "heflyaway",
     "icon": "javascript.png",
     "repository": {
@@ -19,6 +19,14 @@
         "snippets": [
             {
                 "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "html",
                 "path": "./snippets/snippets.json"
             }
         ]
