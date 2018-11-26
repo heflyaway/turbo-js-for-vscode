@@ -29,7 +29,7 @@
             "if (${1:condition}) {",
                 "\t${0}",
             "} else {",
-                "\t",    
+                "\t",
             "}"
         ],
         "description": "else statement"
@@ -140,7 +140,7 @@
                 "\tconstructor(${2:arguments}) {",
                     "\t${0}",
                 "\t}",
-            "}"    
+            "}"
         ],
         "description": "class"
     },
