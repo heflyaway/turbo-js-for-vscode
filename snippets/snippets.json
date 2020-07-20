@@ -211,7 +211,7 @@
         "body": [
             "return new Promise((resolve, reject) => {",
                 "\t${0}",
-            "}"
+            "})"
         ],
         "description": "return Promise"
     },
